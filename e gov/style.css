@@ -1,0 +1,47 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #FFD700; /* Change the color on hover */
+}
+
+.footer .contact-info {
+    margin-top: 10px;
+}
+.footer .container .row .share a{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    border-radius: .2rem;
+    font-size: 1.5rem;
+    color: #333;
+    margin-left: .2rem;
+    background: #eee;
+    text-align: center;
+}
